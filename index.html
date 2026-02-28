@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>City</title>
+  
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <main>
+    <div class="container py-5">
+      <div class="row g-4" id="cities"></div>
+
+      <div id="zoomimg">
+  <button type="button" class="icon-btn close-btn" id="closeZoomBtn">
+    <i class="fa-solid fa-x"></i>
+  </button>
+
+  <button type="button" class="icon-btn arrow-btn" id="leftArrowBtn">
+    <i class="fa-solid fa-angle-left"></i>
+  </button>
+
+  <button type="button" class="icon-btn arrow-btn" id="rightArrowBtn">
+    <i class="fa-solid fa-angle-right"></i>
+  </button>
+
+  <div><img id="bigimag" alt="Zoomed Image" ></div>
+</div>
+    </div>
+  </main>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/all.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
